@@ -1,0 +1,123 @@
+/* Contact Page Styling */
+.contact {
+    background: linear-gradient(to bottom, #caa897, #b38b6d);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Left Side: Contact Form */
+.contact-form {
+    flex: 1;
+    color: white;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    
+    /* Theme-Matching Background & Border */
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    /* Text Color */
+    color: black;
+    font-weight: bold;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Placeholder Color */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+}
+
+/* Focused Input Effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #c68761;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #a15b3e;
+}
+
+/* Right Side: Contact Info */
+.contact-info {
+    flex: 1;
+    color: white;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Form Status Message */
+.form-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+}

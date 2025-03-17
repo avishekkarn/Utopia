@@ -1,0 +1,79 @@
+/* About Page Styling */
+.about {
+    background: linear-gradient(to bottom, #caa897, #b38b6d);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1000px;
+    gap: 40px;
+    align-items: center;
+}
+
+/* Left Side: About Text */
+.about-text {
+    flex: 1;
+    color: white;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 18px;
+    color: #f1d9c0;
+    margin-bottom: 15px;
+}
+
+/* Right Side: Profile Picture */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Poetry Journey Section */
+.journey, .why-utopia {
+    background: linear-gradient(to right, #7a4e32, #c68761);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.journey h2, .why-utopia h2 {
+    font-size: 28px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7a4e32;
+    color: white;
+    font-size: 16px;
+}

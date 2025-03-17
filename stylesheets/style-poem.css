@@ -1,0 +1,102 @@
+/* Poem Section */
+.poems-main {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #caa897, #b38b6d);
+}
+
+.section-title {
+    font-size: 32px;
+    color: #7a4e32;
+    font-weight: bold;
+}
+
+/* Poem List */
+.poem-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Poem Item */
+.poem-item {
+    background: linear-gradient(to right, #7a4e32, #c68761);
+    padding: 20px;
+    border-radius: 10px;
+    color: #f5e1d3;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.poem-content h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.poem-date {
+    font-size: 14px;
+    color: #e2c5b1;
+}
+
+/* Poem Preview */
+.poem-preview {
+    font-size: 16px;
+    color: #f8f8f8;
+    margin: 10px 0;
+}
+
+/* Expand Button */
+.expand-btn {
+    padding: 8px 15px;
+    background: #c68761;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.expand-btn:hover {
+    background: #a15b3e;
+}
+
+/* Poem Interactions */
+.poem-interactions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.like-btn, .comment-btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.like-btn:hover, .comment-btn:hover {
+    opacity: 0.8;
+}
+
+/* Comments Section */
+.comments-section {
+    display: none;
+    margin-top: 10px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post-comment {
+    padding: 5px 10px;
+    background: #c68761;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

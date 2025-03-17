@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utopia - Poems</title>
+    <meta name="author" content="Avishek Karn">
+    <meta name="description" content="Collection of poems by Avishek Karn">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/style-poem.css">
+    <script src="scripts/poems.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section (Same as Home Page) -->
+    <header>
+        <div class="header-container">
+            <h1 class="site-title">Utopia!</h1>
+
+            <div class="nav-profile-container">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="poems.html">Poems</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="profile">
+                    <img src="photos/profile-pic.jpg" class="profile-img">
+                    <div class="profile-text">
+                        <p>Avishek Karn</p>
+                        <p>Siraha, Nepal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Poem Section -->
+    <main class="poems-main">
+        <h2 class="section-title">📜 Explore My Poetry</h2>
+
+        <div class="poem-list">
+            <!-- Poem 1 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>Stand by My Side</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        Time passes, but I'll remain the same... <br>
+                        If you stand by my side. No matter the situation...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 2 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>Remember!</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        I remember you and yours... <br>
+                        I still remember the day we met...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 3 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>I am Iron Man!</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        TONY wants you to take breaks... <br>
+                        THOR wants you to be proud of yourself...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 4 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>The Chaos of Heart</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        I look down and around... <br>
+                        Nobody's around, and I hear no sound...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 5 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>At a Journey</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        A journey from the knower... <br>
+                        To feeler, to embroider...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 6 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>I MUST</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        I haven't seen those before... <br>
+                        Those half smiles holding mystery...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        
+            <!-- Poem 7 -->
+            <div class="poem-item">
+                <div class="poem-content">
+                    <h3>Who cares?</h3>
+                    <p class="poem-date">📅 July 23, 2022</p>
+                    <p class="poem-preview">
+                        Bold and alone, who cares? <br>
+                        No one with me despite I am cool...
+                    </p>
+                    <button class="expand-btn" onclick="expandPoem(this)">Read More</button>
+                </div>
+                <div class="poem-interactions">
+                    <span class="like-btn" onclick="likePoem(this)">❤️ Like (<span class="like-count">0</span>)</span>
+                    <span class="comment-btn" onclick="toggleComments(this)">💬 Comment</span>
+                </div>
+                <div class="comments-section hidden">
+                    <textarea placeholder="Write a comment..."></textarea>
+                    <button class="post-comment">Post</button>
+                    <div class="comments-list"></div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-name">All Rights Reserved. &copy; 2025 Design By: 
+            <a href="#">AVISHEK KARN</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

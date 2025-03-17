@@ -1,0 +1,77 @@
+.poem-interactions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.interaction-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.interaction-btn:hover {
+    color: #c2db99;
+}
+
+.like-btn.active {
+    color: #ff4136;
+}
+
+.like-btn.active i {
+    font-weight: 900;
+}
+
+.comments-section {
+    padding: 15px;
+    border-top: 1px solid #ac9a9a;
+}
+
+.comments-section.hidden {
+    display: none;
+}
+
+.comment-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-form textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 60px;
+}
+
+.post-comment {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-comment:hover {
+    background-color: #0056b3;
+}
+
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
